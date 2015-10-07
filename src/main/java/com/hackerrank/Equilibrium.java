@@ -1,6 +1,11 @@
 package main.java.hackerrank;
 
-public class MachineZone
+/**
+ * Given an array of integers (A), find the index where the
+ * preceeding sum of integers equals the remaining sum of
+ * integers.
+ */
+public class Equilibrium
 {
     public static void main(String[] args)
     {
@@ -29,7 +34,6 @@ public class MachineZone
 
             System.out.println("i:" + i + ", ps=" + preceedingSum + ", rem=" + remainingSum);
         }
-
 
 
         System.out.println(equilibrium);
