@@ -6,7 +6,8 @@ import java.util.*;
  * https://www.hackerrank.com/challenges/maxsubarray
  * <p>
  * Key points:
- * • Don't initialize with zero.  Zero would be used in the comparisons.
+ * - Don't initialize with zero.  Zero would be used in the comparisons.
+ * - This is a modification of Kandane's algorithm
  */
 public class MaximumSubarray
 {
