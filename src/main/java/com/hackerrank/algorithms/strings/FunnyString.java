@@ -2,6 +2,9 @@ package main.java.com.hackerrank.algorithms.strings;
 
 import java.util.*;
 
+/**
+ * https://www.hackerrank.com/challenges/funny-string
+ */
 public class FunnyString
 {
     public static void main(String[] args)

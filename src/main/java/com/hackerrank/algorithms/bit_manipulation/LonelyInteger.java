@@ -2,6 +2,10 @@ package main.java.com.hackerrank.algorithms.bit_manipulation;
 
 import java.util.*;
 
+/**
+ * https://www.hackerrank.com/challenges/lonely-integer
+ * difficulty: easy
+ */
 public class LonelyInteger
 {
     public static void main(String[] args)
