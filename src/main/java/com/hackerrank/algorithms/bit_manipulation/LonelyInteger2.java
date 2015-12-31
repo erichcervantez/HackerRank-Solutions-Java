@@ -9,21 +9,27 @@ import java.util.*;
  * <p>
  * Difficulty: easy
  */
-public class LonelyInteger
+public class LonelyInteger2
 {
     public static void main(String[] args)
     {
         Scanner scanner = new Scanner(System.in);
         int N = scanner.nextInt();
-        Set<Integer> hashSet = new HashSet<>();
+        HashSet<Integer> hashSet = new HashSet<>();
+
         for (int i = 0; i < N; i++)
         {
             int digit = scanner.nextInt();
-            if (!hashSet.add(digit))
+            if (hashSet.add(digit) == false)
             {
                 hashSet.remove(digit);
             }
         }
-        System.out.println(hashSet.iterator().next());
+
+        Iterator<Integer> iterator = hashSet.iterator();
+        while (iterator.hasNext())
+        {
+            System.out.println(iterator.next());
+        }
     }
 }
